@@ -1,0 +1,35 @@
+{
+  "name": "@kitmodule/kittoon",
+  "version": "1.0.0",
+  "description": "Convert JavaScript objects into TOON format quickly — lightweight, human-readable, and dependency-free.",
+  "homepage": "https://github.com/kitmodule/kittoon-js",
+  "bugs": {
+    "url": "https://github.com/kitmodule/kittoon-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitmodule/kittoon-js.git"
+  },
+  "author": "Huỳnh Nhân Quốc (https://github.com/huynhnhanquoc)",
+  "license": "MIT",
+  "main": "dist/kittoon.js",
+  "unpkg": "dist/kittoon.min.js",
+  "jsdelivr": "dist/kittoon.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "TOON",
+    "js2toon",
+    "json2toon",
+    "kittoon",
+    "kitmodule",
+    "converter-toon",
+    "vanilla-js"
+  ],
+  "scripts": {
+    "build": "echo 'build step here'",
+    "prepublishOnly": "npm run build"
+  }
+}
