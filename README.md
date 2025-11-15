@@ -75,7 +75,7 @@ tags: [demo,kitmodule,TOON]
 ### Browser (CDN)
 
 ```html
-<script src="https://unpkg.com/@kitmodule/kittoon-js/dist/kittoon.min.js"></script>
+<script src="https://unpkg.com/@kitmodule/kittoon/dist/kittoon.min.js"></script>
 <script>
   const obj = {
     users: [
